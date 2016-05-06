@@ -1,0 +1,21 @@
+
+###########################################
+# Syntax Coloring Map For WifiNTP-library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+WifiNTP	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+begin KEYWORD2
+now KEYWORD2
+getNTP KEYWORD2
+NOTIME KEYWORD2
+NOSRV KEYWORD2
+NOBEGIN KEYWORD2
