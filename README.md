@@ -12,10 +12,15 @@ This will, if you're connected to wifi, get UTC from time server(s).
 
 Methods: 
 	ntp.begin()	- Basic init of functions, use default servers.
+	
 	ntp.begin(long tzadjust) - Initialize functions and set the timezone adjustment, in seconds. Use default servers.
+	
 	ntp.begin(char ** ntpServers) - Init functions with null terminated array of pointers to time
+	
 	servers in dotted quad notation. A max of 4 will be used in round robin.
+	
 	ntp.time() - return time when last acquired
+	
 	ntp.time(tzadjust) - adjust the time and return.
 	
 	
