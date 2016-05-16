@@ -19,8 +19,6 @@ Methods:
 	
 	servers in dotted quad notation. A max of 4 will be used in round robin.
 	
-	ntp.time() - return time when last acquired
-	
-	ntp.time(tzadjust) - adjust the time and return.
+	ntp.time(tzadjust) - Return time, adjusting for timezone seconds. Use -1 or void for no adjustment. 
 	
 	
