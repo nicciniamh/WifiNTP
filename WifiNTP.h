@@ -44,7 +44,6 @@ class WifiNTP {
 		void begin(void);
 		void begin(char **ntpServers, time_t now, long _tzadjust);
 		time_t getNTP(void);
-		time_t time(void);
 		time_t time(long tzadjust);
 };
 	
