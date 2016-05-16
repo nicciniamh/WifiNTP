@@ -109,9 +109,6 @@ time_t WifiNTP::getNTP() {
   }
   return epochtime = NOTIME;
 }
-time_t WifiNTP::time(void) {
-	return time(-1);
-}
 time_t WifiNTP::time(long _tzadjust = -1) {
 	time_t epoch;
 	if(epochtime >= 0xFFFFFFF0 && epochtime != NOTIME)
