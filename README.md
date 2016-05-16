@@ -15,8 +15,7 @@ Methods:
 	ntp.begin(long tzadjust) - Initialize functions and set the timezone adjustment, in seconds. Use default servers.
 	ntp.begin(char ** ntpServers) - Init functions with null terminated array of pointers to time
 	servers in dotted quad notation. A max of 4 will be used in round robin.
-
-	ntp.now() - return time when last acquired
-	ntp.now(tzadjust) - adjust the time and return.
+	ntp.time() - return time when last acquired
+	ntp.time(tzadjust) - adjust the time and return.
 	
 	
