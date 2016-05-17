@@ -11,6 +11,7 @@ ntp.time();
 This will, if you're connected to wifi, get UTC from time server(s).
 
 Methods: 
+
 	ntp.begin()	- Basic init of functions, use default servers.
 	
 	ntp.begin(long tzadjust) - Initialize functions and set the timezone adjustment, in seconds. Use default servers.
