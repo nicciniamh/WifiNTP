@@ -14,7 +14,7 @@ WifiNTP	KEYWORD1
 ###########################################
 
 begin KEYWORD2
-now KEYWORD2
+time KEYWORD2
 getNTP KEYWORD2
 NOTIME KEYWORD2
 NOSRV KEYWORD2
