@@ -23,3 +23,4 @@ Methods:
 	ntp.time(tzadjust) - Return time, adjusting for timezone seconds. Use -1 or void for no adjustment. 
 	
 	
+Please note the actual UDP NTP Code I used is by  [Michael Margolis](http://www.gv.com/team/michael-margolis/) and  [Tom Igoe](http://www.tigoe.net) in the Arduino WiFi library. That code states it is public domain. Thanks, guys! 
